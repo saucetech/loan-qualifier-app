@@ -24,3 +24,12 @@
    24  git status
    25  git commit -m "Updated app.py with questionary prompts in save_qualifying_loans()"
    26  history 50 > terminal_history.txt
+   27  git add .
+   28  git status
+   29  git commit -m "Added terminal_history.txt"
+   30  python app.py
+   31  git add .
+   32  git status
+   33  git commit -m "Added resulting qualified_loans.csv from running app.py"
+   34  hitsroy 50 > terminal_history.txt
+   35  history 50 > terminal_history.txt
