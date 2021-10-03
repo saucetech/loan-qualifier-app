@@ -114,6 +114,8 @@ def save_qualifying_loans(qualifying_loans):
         User will be asked whether they would like to save the qualifying loans as a csv file, and to which path.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
+    questionary.confirm("Would you like to save the qualifying loans as a csv file?").ask()
+    questionary.path("Where would you like to save the csv file?").ask()
     
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
     

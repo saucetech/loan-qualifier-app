@@ -1,0 +1,26 @@
+    1  pwd
+    2  ls
+    3  cd iCloudDrive
+    4  cd FinTech-workspace
+    5  ls
+    6  cd Module_2_Challenge
+    7  ls
+    8  cd loan-qualifier-app
+    9  ls
+   10  git status
+   11  git add README.md
+   12  git status
+   13  git status
+   14  git commit -m "Updated README.md with additional details"
+   15  git add
+   16  git add .
+   17  git status
+   18  git add .
+   19  status
+   20  git status
+   21  git commit -m "Added app.py for the loan qualifier. Added data folder with the daily_rate_sheet.csv used for banking data. Added qualifier folder with filters and utils folder with the functions used for filters and calculations."
+   22  git status
+   23  git add app.py
+   24  git status
+   25  git commit -m "Updated app.py with questionary prompts in save_qualifying_loans()"
+   26  history 50 > terminal_history.txt
